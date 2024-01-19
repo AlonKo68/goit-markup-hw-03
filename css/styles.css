@@ -111,6 +111,10 @@ button {
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
 }
 
 /* header */
@@ -144,6 +148,11 @@ button {
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
+
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 .hero-btn {
     background: var(--IRIS, #4D5AE5);
