@@ -38,6 +38,14 @@ button {
 }
 
 /* common styles */
+.containier {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header-logo,
 .footer-logo {
     color: #4D5AE5;
@@ -204,6 +212,7 @@ button {
 .logo-light {
 }
 .footer-slogan {
+    width: 264px;
 }
 
  
