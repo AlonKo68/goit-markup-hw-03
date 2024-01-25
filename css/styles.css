@@ -44,10 +44,26 @@ button {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+/* подсветка */
+    outline: 2px solid green;
+    outline-offset: -2px;
 }
-
-.header-logo,
-.footer-logo {
+.section {
+    padding: 120px 0px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -105,8 +121,7 @@ button {
 .portfolio-desc {
     color: var(--SLATE, #434455);
 }
-.users-subject,
-.portfolio-subject {
+.subject {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
@@ -118,23 +133,39 @@ button {
 }
 
 /* header */
-.header { 
+.header-containier { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
 }
 .header-nav {
+    display: flex;
+    
 }
 .header-logo {
+    display: inline-flex;   
+    align-items: center;
+    margin-right: 76px;  
 }
-.logo-dark{
+.logo-dark {
 }
 .nav-list {
+    display: flex;
+    gap: 40px;   
 }
 .nav-item {
 }
 .nav-link {
+    display: block;
+    padding: 24px 0px;
 }
 .header-address {
 }
 .address-list {
+    display: flex;
+    gap: 40px;
 }
 .address-item {
 }
@@ -143,6 +174,8 @@ button {
 
 /* hero section */
 .hero {
+    padding: 188px 0px;
+
 }
 .hero-title {
     text-align: center;
@@ -158,6 +191,11 @@ button {
     background: var(--IRIS, #4D5AE5);
     letter-spacing: 0.04em;
     line-height: inherit;
+    
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 .hero-btn:focus,
 .hero-btn:hover {
@@ -166,13 +204,15 @@ button {
 /* benefits section */
 .benefits {
 }
-.benefits-subject {
-}
 .benefits-list {
+    display: flex;
+    gap: 24px;  
 }
 .benefits-item {
+    width: 264px;
 }
-.benefits-captain {    
+.benefits-captain { 
+    margin-bottom: 8px;   
 }
 .benefits-desc {
 }
