@@ -224,17 +224,31 @@ button {
 .users-subject {
 }
 .users-list {
+    display: flex;
+    border-radius: 0px 0px 4px 4px;
+    gap: 24px;
 }
 .users-item {
     background: var(--WHITE, #FFF);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    
 }
 .users-avatar {
+}
+.users-review {
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 .users-review,
 .users-desc {
     text-align: center;
 }
 .users-desc {
+    padding-bottom: 32px;
 }
 
 /* portfolio section */
