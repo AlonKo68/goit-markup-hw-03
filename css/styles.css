@@ -139,7 +139,7 @@ img {
 
 /* header */
 .header {
-    border-bottom: 10px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 .header-containier { 
     display: flex;
