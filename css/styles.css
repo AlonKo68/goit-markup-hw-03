@@ -50,8 +50,8 @@ img {
     margin-left: auto;
     margin-right: auto;
 /* подсветка */
-    outline: 2px solid green;
-    outline-offset: -2px;
+    /* outline: 2px solid green;
+    outline-offset: -2px; */
 }
 .section {
     padding: 120px 0px;
@@ -138,20 +138,21 @@ img {
 }
 
 /* header */
+.header {
+    border-bottom: 10px solid #E7E9FC;
+}
 .header-containier { 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
 .header-nav {
     display: flex;
-    
+    align-items: center;
 }
 .header-logo {
     display: inline-flex;   
-    align-items: center;
     margin-right: 76px;  
 }
 .logo-dark {
