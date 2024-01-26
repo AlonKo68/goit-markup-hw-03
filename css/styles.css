@@ -36,6 +36,11 @@ button {
     padding: 0;
     border: none;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* common styles */
 .containier {
@@ -257,12 +262,28 @@ button {
 .portfolio-subject {
 }
 .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
 }
 .portfolio-item {
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+.portfolio-item:nth-child(3n+3) {
+    margin-right: 0px;
+}
+.portfolio-item:nth-child(n+4) {
+    margin-bottom: 0px;
 }
 .portfolio-pic {
 }
+.portfolio-wrapper {
+    padding: 32px 16px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-top: none;
+}
 .portfolio-captain {
+    margin-bottom: 8px;
 }
 .portfolio-desc {
 }
