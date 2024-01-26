@@ -43,10 +43,9 @@ img {
 }
 
 /* common styles */
-.containier {
+.container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0px 15px;
     margin-left: auto;
     margin-right: auto;
 /* подсветка */
@@ -141,7 +140,7 @@ img {
 .header {
     border-bottom: 1px solid #E7E9FC;
 }
-.header-containier { 
+.header-container { 
     display: flex;
     align-items: center;
     justify-content: space-between;
