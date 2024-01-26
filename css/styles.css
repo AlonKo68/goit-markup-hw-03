@@ -290,13 +290,23 @@ img {
 
 /* footer section */
 .footer {
+    padding: 100px 0px;
+}
+.slogan {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 264px;
 }
 .footer-logo {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 16px;
 }
 .logo-light {
 }
 .footer-slogan {
-    width: 264px;
+    
 }
 
  
