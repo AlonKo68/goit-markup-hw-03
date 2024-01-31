@@ -114,6 +114,10 @@ img {
 .hero-btn {
     color: #FFF;
 }
+.benefits-item,
+.users-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
 .benefits-captain,
 .users-review,
 .portfolio-captain {
@@ -215,7 +219,6 @@ img {
     gap: 24px;  
 }
 .benefits-item {
-    width: 264px;
 }
 .benefits-captain { 
     margin-bottom: 8px;   
@@ -262,7 +265,9 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 48px 24px;
 }
+/* gap up 
 .portfolio-item {
     margin-right: 24px;
     margin-bottom: 48px;
@@ -272,6 +277,9 @@ img {
 }
 .portfolio-item:nth-child(n+4) {
     margin-bottom: 0px;
+}*/
+.portfolio-item {
+    width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-pic {
 }
